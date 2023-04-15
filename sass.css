@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 284px 352px;
+  gap: 10px;
+  position: relative;
+  width: 1440px;
+  height: 1080px;
+  /* Very Light blue */
+  background: #ECF2FF;
+}
+
+.card {
+  display: flex;
+  width: 736px;
+  height: 512px;
+  /* White */
+  background: #FFFFFF;
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  border-radius: 32px;
+}
+
+.ong {
+  width: 368px;
+  height: 512px;
+  /* Gradient 1 */
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+  border-radius: 32px;
+}
+
+.your {
+  width: 125px;
+  height: 31px;
+  margin-top: 38px;
+  margin-left: 119px;
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  /* Light Blue */
+  color: #CAC9FF;
+}
+
+.aylana {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+  margin-top: 35px;
+  margin-left: 84px;
+}
+
+.katta {
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FFFFFF;
+  margin-top: 35px;
+  margin-left: 55px;
+}
+
+.kichkina {
+  margin-left: 73px;
+  margin-top: 4px;
+  width: 52px;
+  height: 23px;
+  /* Body (Bold) */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* Light Blue */
+  color: #CAC9FF;
+  mix-blend-mode: normal;
+  opacity: 0.52;
+}
+
+.gr {
+  margin-top: 28px;
+  margin-left: 140px;
+  width: 83px;
+  height: 42px;
+  /* Heading L */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+  text-align: center;
+  /* White */
+  color: #FFFFFF;
+}
+
+.text {
+  margin-top: 14px;
+  margin-left: 54px;
+  width: 260px;
+  height: 69px;
+  /* Body */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  /* Light Blue */
+  color: #CAC9FF;
+}
+
+.nol {
+  width: 104px;
+  height: 31px;
+  margin-top: 38px;
+  margin-left: 40px;
+  /* Heading M */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  /* Dark Navy */
+  color: #303B59;
+}
+
+.bir {
+  display: flex;
+  margin-top: 28px;
+  margin-left: 40px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+  border-radius: 12px;
+  width: 288px;
+  height: 56px;
+}
+
+.ikki {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 40px;
+  width: 288px;
+  height: 56px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+  border-radius: 12px;
+}
+
+.uch {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 40px;
+  width: 288px;
+  height: 56px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+  border-radius: 12px;
+}
+
+.tort {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 40px;
+  width: 288px;
+  height: 56px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+  border-radius: 12px;
+}
+
+.besh {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 41px;
+  margin-left: 40px;
+  width: 288px;
+  height: 56px;
+  background: #303B59;
+  border-radius: 128px;
+}
+
+.c {
+  margin-left: 106px;
+  width: 75px;
+  height: 23px;
+  /* Body (Bold) */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  /* White */
+  color: #FFFFFF;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+  margin-left: 16px;
+}
+
+.rasm {
+  margin-top: 17px;
+  margin-left: 12px;
+  width: 50px;
+  height: 23px;
+  /* Body */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.son {
+  margin-top: 17px;
+  margin-left: 81px;
+  width: 72px;
+  height: 23px;
+  /* Body (Bold) */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  /* Dark Navy */
+  opacity: 0.5;
+}/*# sourceMappingURL=sass.css.map */
